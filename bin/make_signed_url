@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'signed_url'
+SignedUrl::CLI.start(ARGV)
